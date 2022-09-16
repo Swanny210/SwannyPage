@@ -14,9 +14,10 @@
         <link rel="stylesheet" href="swancss/swan.css" />
     </head>
 <body>
-    
-    <header>
 
+    <!-- HEADER -->
+
+    <header>
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="images/SI-black-icon.png" height="60" width="60" /></a>
@@ -26,36 +27,61 @@
                  <div class="collapse navbar-collapse" id="swansiteNavBar">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="indexhome.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="aboutswanny.html"><i class="fa fa-info fa-lg"></i> About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutswanny.html"><i class="fa fa-info fa-lg"></i> About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Videos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="store.html"fa fa-address-card fa-lg"></i> Shop</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="store.html"fa fa-address-card fa-lg"></i> Shop</a></li>
                     </ul>    
                 </div> 
             </div>
         </nav>  
     </header>
- 
-    <section class="container content-section">
+
+    <!-- MERCH -->
+   // <section class="container content-section">
         <h2 class="section-header">MERCH</h2>
+        
         <div class="shop-items">
             <div class="shop-item">
-                <span class="shop-item-title">T-Shirt</span>
-                <img class="shop-item-image" src="Images/Shirt.png">
+                <span class="shop-item-title">"ENDORPHIN" Acid Tee</span>
+                <img class="shop-item-image" src="images/Endorphin Tee Back.JPG" width="300" height="100">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$30.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">"Neon Cocaine" Retro Crop Hoodie</span>
+                <img class="shop-item-image" src="images/Neon Cocaine Retro Crop Hoodie.JPG" 
+                width="300" height="100">
+                <div class="shop-item-details">
+                    <span class="shop-item-price" id="sale">$20.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">"Neon Cocaine" Retro Tee</span>
+                <img class="shop-item-image" src="images/Retro Tee.JPG" width="300" height="100">
                 <div class="shop-item-details">
                     <span class="shop-item-price">$19.99</span>
                     <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                 </div>
             </div>
             <div class="shop-item">
-                <span class="shop-item-title">Coffee Cup</span>
-                <img class="shop-item-image" src="Images/Cofee.png">
+                <span class="shop-item-title">"Neon Cocaine" Retro Hoodie</span>
+                <img class="shop-item-image" src="images/Neon Cocaine Hoodie Front.JPG" 
+                width="300" height="100">
                 <div class="shop-item-details">
-                    <span class="shop-item-price">$6.99</span>
-                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    <span class="shop-item-price">Sold Out</span>
+                    
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- CART -->
+
     <section class="container content-section">
         <h2 class="section-header">CART</h2>
         <div class="cart-row">
@@ -66,8 +92,8 @@
         <div class="cart-items">
             <div class="cart-row">
                 <div class="cart-item cart-column">
-                    <img class="cart-item-image" src="Images/Shirt.png" width="100" height="100">
-                    <span class="cart-item-title">T-Shirt</span>
+                    <img class="cart-item-image" src="images/Endorphin Tee Back.JPG" width="100" height="100">
+                    <span class="cart-item-title">Endorphin Acid Tee</span>
                 </div>
                 <span class="cart-price cart-column">$19.99</span>
                 <div class="cart-quantity cart-column">
